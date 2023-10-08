@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: two-tier-app
-          image: trainwithshubham/flaskapp:latest
+          image: sai411/flask_img_2_tire:10
           env:
             - name: MYSQL_HOST
               value: "mysql"          # this is your mysql's service clusture IP, Make sure to change it with yours
